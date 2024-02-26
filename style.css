@@ -57,13 +57,17 @@ h1{
     place-content: center;
     color: #222;
     font-size: 1.1em;
-    background: linear-gradient(#fff, #dcd0e0) padding-box,
+    background: -webkit-linear-gradient(#e1e1e1, #f1bbd1) padding-box,
+    linear-gradient(to bottom, #d2c4d8, #ef8d9f) border-box;
+    background: linear-gradient(#e1e1e1, #f1bbd1) padding-box,
     linear-gradient(to bottom, #d2c4d8, #ef8d9f) border-box;
     border: 4px solid transparent;
 }
 
 .todos-card:hover{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;    transform: scale(1.1);
+    background: -webkit-linear-gradient(#d2c4d8, #ef8d9f) padding-box,
+    linear-gradient(to bottom, #d2c4d8, #ef8d9f) border-box;
     background: linear-gradient(#d2c4d8, #ef8d9f) padding-box,
     linear-gradient(to bottom, #d2c4d8, #ef8d9f) border-box;
     color: white;
