@@ -48,6 +48,8 @@ h1{
     margin: auto;
     text-align: center;
     text-transform: capitalize;
+    height: 74vh;
+    overflow: auto;
 }
 
 .todos-card{
