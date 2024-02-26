@@ -72,3 +72,10 @@ h1{
     linear-gradient(to bottom, #d2c4d8, #ef8d9f) border-box;
     color: white;
 }
+
+#clock{
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 1.3rem;
+}
