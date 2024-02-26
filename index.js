@@ -15,6 +15,15 @@ function displayTodos(todos){
         todoCard.classList.add('todos-card');
         todoCard.textContent = todo.title;
         todosContainer.appendChild(todoCard);
+        
+        const check = document.createElement('i')
+        check.classList.add("fa-solid", "fa-check");
+        todoCard.appendChild(check);
+
+        check.addEventListener('click',()=>{
+            todoCard.classList.toggle('todos-completed');
+            check.classList.toggle('check--white');
+        })
     });
 }
 
